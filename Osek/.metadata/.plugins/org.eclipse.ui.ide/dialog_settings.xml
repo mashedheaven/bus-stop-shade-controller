@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/user/Osek/Servotest123"/>
+		<item value="/home/user/Osek/slayver"/>
+		<item value="/home/user/Desktop/servotest1/servo1"/>
+		<item value="/home/user/Desktop/servotest1"/>
+		<item value="/home/user/Osek/OSEK-1"/>
+		<item value="/home/user/lab-osek/Test-LCD-HD44780"/>
+		<item value="/home/user/lab-osek/Test-HC-SR04"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/user/Osek/Test-Servo"/>
+			<item value="/home/user/Osek/Test-LDR"/>
+			<item value="/home/user/Osek/Test-LCD-HD44780"/>
+			<item value="/home/user/Osek/Test-HC-SR04"/>
+			<item value="/home/user/Osek/OSEK-GroupProject"/>
+			<item value="/home/user/Osek/OSEK-4"/>
+			<item value="/home/user/Osek/OSEK-3"/>
+			<item value="/home/user/Osek/OSEK-2"/>
+			<item value="/home/user/Osek/OSEK-1"/>
+			<item value="/home/user/lab-osek/Test-LCD-HD44780"/>
+			<item value="/home/user/lab-osek/Test-HC-SR04"/>
+			<item value="/home/user/lab-osek/OSEK-GroupProject"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

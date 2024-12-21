@@ -1,0 +1,20 @@
+16:26:59 **** Incremental Build of configuration Default for project OSEK-GroupProject ****
+Info: Configuration "Default" uses tool-chain "Cygwin GCC" that is unsupported on this system, attempting to build anyway.
+make all 
+make[1]: Entering directory '/home/user/Osek/OSEK-GroupProject/out'
+APP_TARGETS=arduino.eep arduino.hex arduino.lss arduino.srec
+CXX  task.cpp
+LD   arduino.elf
+   text	   data	    bss	    dec	    hex	filename
+   3530	    200	    174	   3904	    f40	arduino.elf
+EEP  arduino.elf
+HEX  arduino.elf
+LSS  arduino.elf
+SREC arduino.elf
+****************************************************
+* Erika Enterprise Application built successfully! *
+****************************************************
+make[1]: Leaving directory '/home/user/Osek/OSEK-GroupProject/out'
+
+16:26:59 Build Finished (took 870ms)
+

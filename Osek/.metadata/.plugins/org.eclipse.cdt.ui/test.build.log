@@ -1,0 +1,66 @@
+04:04:22 **** Incremental Build of configuration Default for project test ****
+make all 
+make[1]: Entering directory '/home/user/lab-osek/test/erika'
+ERIKA_FILES=/home/user/rt-druid/plugins/com.eu.evidence.ee3_3.0.0.20180716_gh41/ee_files
+make[2]: Entering directory '/home/user/lab-osek/test/erika'
+***************************************
+* Erika Enterprise Libraries build... *
+***************************************
+CC   hooks.c
+CC   wiring.c
+CC   wiring_digital.c
+CC   wiring_analog.c
+CC   wiring_pulse.c
+AS   wiring_pulse.S
+CC   wiring_shift.c
+CC   WInterrupts.c
+CXX  abi.cpp
+CXX  CDC.cpp
+CXX  HardwareSerial.cpp
+CXX  HardwareSerial0.cpp
+CXX  HardwareSerial1.cpp
+CXX  HardwareSerial2.cpp
+CXX  HardwareSerial3.cpp
+CXX  IPAddress.cpp
+CXX  new.cpp
+CXX  PluggableUSB.cpp
+CXX  Print.cpp
+CXX  Stream.cpp
+CXX  Tone.cpp
+CXX  USBCore.cpp
+CXX  WMath.cpp
+CXX  WString.cpp
+AR   libarduinosdk.a
+*******************************************
+* Arduino SDK library built successfully! *
+*******************************************
+CC   ee_std_change_context.c
+In file included from /home/user/lab-osek/test/erika/inc/ee_api.h:63:0,
+                 from /home/user/lab-osek/test/erika/inc/ee.h:66,
+                 from /home/user/lab-osek/test/erika/inc/ee_conf.h:62,
+                 from /home/user/lab-osek/test/erika/src/ee_internal.h:61,
+                 from /home/user/lab-osek/test/erika/src/ee_std_change_context.c:53:
+/home/user/lab-osek/test/erika/inc/ee_kernel_types.h:225:3: error: unknown type name 'AlarmBaseType'
+   VAR(AlarmBaseType, TYPEDEF)                       info;
+   ^~~~~~~~~~~~~
+In file included from /home/user/lab-osek/test/erika/src/ee_internal.h:63:0,
+                 from /home/user/lab-osek/test/erika/src/ee_std_change_context.c:53:
+/home/user/lab-osek/test/erika/src/ee_kernel.h: In function 'osEE_counter_eval_when':
+/home/user/lab-osek/test/erika/src/ee_kernel.h:486:41: error: request for member 'maxallowedvalue' in something not a structure or union
+     maxallowedvalue = p_counter_db->info.maxallowedvalue;
+                                         ^
+/home/user/lab-osek/test/erika/mk/ee_arch_rules.mk:201: recipe for target 'obj/ee_std_change_context.c.o' failed
+make[2]: Leaving directory '/home/user/lab-osek/test/erika'
+/home/user/lab-osek/test/erika/src/ee_kernel.h: In function 'osEE_counter_eval_delta':
+makefile:75: recipe for target 'all' failed
+/home/user/lab-osek/test/erika/src/ee_kernel.h:510:41: error: request for member 'maxallowedvalue' in something not a structure or union
+     maxallowedvalue = p_counter_db->info.maxallowedvalue;
+                                         ^
+make[2]: *** [obj/ee_std_change_context.c.o] Error 1
+make[1]: *** [all] Error 2
+make: *** [/home/user/lab-osek/test/erika/lib] Error 2
+make[1]: Leaving directory '/home/user/lab-osek/test/erika'
+makefile:92: recipe for target '/home/user/lab-osek/test/erika/lib' failed
+
+04:04:25 Build Finished (took 2s.581ms)
+

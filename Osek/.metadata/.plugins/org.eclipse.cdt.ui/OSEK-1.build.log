@@ -1,0 +1,76 @@
+23:45:43 **** Incremental Build of configuration Default for project OSEK-1 ****
+make all 
+make[1]: Entering directory '/home/user/Osek/OSEK-1/erika'
+ERIKA_FILES=/home/user/rt-druid/plugins/com.eu.evidence.ee3_3.0.0.20180716_gh41/ee_files
+make[2]: Entering directory '/home/user/Osek/OSEK-1/erika'
+***************************************
+* Erika Enterprise Libraries build... *
+***************************************
+CC   hooks.c
+CC   wiring.c
+CC   wiring_digital.c
+CC   wiring_analog.c
+CC   wiring_pulse.c
+AS   wiring_pulse.S
+CC   wiring_shift.c
+CC   WInterrupts.c
+CXX  abi.cpp
+CXX  CDC.cpp
+CXX  HardwareSerial.cpp
+CXX  HardwareSerial0.cpp
+CXX  HardwareSerial1.cpp
+CXX  HardwareSerial2.cpp
+CXX  HardwareSerial3.cpp
+CXX  IPAddress.cpp
+CXX  new.cpp
+CXX  PluggableUSB.cpp
+CXX  Print.cpp
+CXX  Stream.cpp
+CXX  Tone.cpp
+CXX  USBCore.cpp
+CXX  WMath.cpp
+CXX  WString.cpp
+AR   libarduinosdk.a
+*******************************************
+* Arduino SDK library built successfully! *
+*******************************************
+CC   ee_std_change_context.c
+CC   ee_oo_api_osek.c
+CC   ee_oo_sched_entry_points.c
+CC   ee_oo_scheduler.c
+CC   ee_oo_sched_partitioned.c
+CC   ee_atmega_intvect.c
+AS   ee_avr8_asm.S
+CC   ee_avr8_irqstub.c
+CC   ee_avr8_utils.c
+CC   ee_atmega_timer1ctc.c
+CC   ee_oscfg.c
+AR   libee.a
+**************************************************
+* Erika Enterprise Libraries built successfully! *
+**************************************************
+make[2]: Leaving directory '/home/user/Osek/OSEK-1/erika'
+make[1]: Leaving directory '/home/user/Osek/OSEK-1/erika'
+make[1]: Entering directory '/home/user/Osek/OSEK-1/out'
+APP_TARGETS=arduino.eep arduino.hex arduino.lss arduino.srec
+*****************************************
+* Erika Enterprise Application build... *
+*****************************************
+CXX  code.cpp
+CXX  debug.cpp
+CC   ee_applcfg.c
+CXX  task.cpp
+LD   arduino.elf
+   text	   data	    bss	    dec	    hex	filename
+   4784	    196	    179	   5159	   1427	arduino.elf
+EEP  arduino.elf
+HEX  arduino.elf
+LSS  arduino.elf
+SREC arduino.elf
+****************************************************
+* Erika Enterprise Application built successfully! *
+****************************************************
+make[1]: Leaving directory '/home/user/Osek/OSEK-1/out'
+
+23:45:45 Build Finished (took 1s.839ms)
+

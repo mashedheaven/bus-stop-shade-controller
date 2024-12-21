@@ -1,0 +1,11 @@
+13:58:15 **** Incremental Build of configuration Default for project Lab-OSEK-2 ****
+make all 
+make[1]: Entering directory '/home/user/lab-osek/Lab-OSEK-2/out'
+APP_TARGETS=arduino.eep arduino.hex arduino.lss arduino.srec
+****************************************************
+* Erika Enterprise Application built successfully! *
+****************************************************
+make[1]: Leaving directory '/home/user/lab-osek/Lab-OSEK-2/out'
+
+13:58:15 Build Finished (took 472ms)
+

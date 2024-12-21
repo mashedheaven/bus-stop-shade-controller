@@ -1,0 +1,59 @@
+\hypertarget{ee__atmega__timer1ctc_8h}{}\section{inc/ee\+\_\+atmega\+\_\+timer1ctc.h File Reference}
+\label{ee__atmega__timer1ctc_8h}\index{inc/ee\+\_\+atmega\+\_\+timer1ctc.\+h@{inc/ee\+\_\+atmega\+\_\+timer1ctc.\+h}}
+
+
+Timer 1 in C\+TC Mode.  
+
+
+{\ttfamily \#include \char`\"{}ee\+\_\+platform\+\_\+types.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{ee__atmega__timer1ctc_8h_a8e491d5e17071bbb9579c0e1a2b6c8f9}{Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1} (uint32\+\_\+t microseconds\+Interval)
+\begin{DoxyCompactList}\small\item\em Timer 1 Start. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Timer 1 is available on A\+Tmega168, A\+Tmega328 and on A\+Tmega2560.
+
+(The page and chapter numbers refer to the A\+Tmega328P documentation).
+
+16.\+9.\+2 Clear Timer on Compare Match (C\+TC) Mode (page 123) In Clear Timer on Compareor C\+TC mode (W\+G\+M13\+:0 = 4 or 12), the O\+C\+R1A or I\+C\+R1 Register are used to manipulate the counter resolution. In C\+TC mode the counter is cleared to zero when the counter value (T\+C\+N\+T1) matches either the O\+C\+R1A (W\+G\+M13\+:0 = 4) or the I\+C\+R1 (W\+G\+M13\+:0 = 12). The O\+C\+R1A or I\+C\+R1 define the top value for the counter, hence also its resolution. This mode allows greater control of the compare match output frequency. It also simplifies the operation of counting external events. The timing diagram for the C\+TC mode is shown in Figure 16-\/6. The counter value (T\+C\+N\+T1) increases until a compare match occurs with either O\+C\+R1A or I\+C\+R1, and then counter (T\+C\+N\+T1) is cleared. An interrupt can be generated at each time the counter value reaches the T\+OP value by either using the O\+C\+F1A or I\+C\+F1 Flag according to the register used to define the T\+OP value. If the interrupt is enabled, the interrupt handler routine can be used for updating the T\+OP value. However, changing the T\+OP to a value close to B\+O\+T\+T\+OM when the counter is running with none or a low prescaler value must be done with care since the C\+TC mode does not have the double buffering feature. If the new value written to O\+C\+R1A or I\+C\+R1 is lower than the current value of T\+C\+N\+T1, the counter will miss the compare match. The counter will then have to count to its maximum value (0x\+F\+F\+FF) and wrap around starting at 0x0000 before the compare match can occur. In many cases this feature is not desirable. An alternative will then be to use the fast P\+WM mode using O\+C\+R1A for defining T\+OP (W\+G\+M13\+:0 = 15) since the O\+C\+R1A then will be doublebuffered. For generating a waveform output in C\+TC mode, the O\+C1A output can be set to toggle its logical level on each compare match by setting the Compare Output mode bit to toggle mode (C\+O\+M1\+A1\+:0 = 1). The O\+C1A value will not be visible on the port pin unless the data direction for the pin is set to output (D\+D\+R\+\_\+\+O\+C1A = 1). The waveform generated will have a maximum frequency of f\+O\+C1A = fclk\+\_\+\+I\+\_\+\+O/2 when O\+C\+R1A is set to zero (0x0000). The waveform frequency is defined by the following equation\+: f\+O\+CnA = fclk\+\_\+\+I\+\_\+\+O/(2$\ast$\+N$\ast$(1+\+O\+C\+RnA)) The Nvariable represents the prescaler factor (1, 8, 64, 256, or 1024). As for the Normal mode of operation, the T\+O\+V1 Flag is set in the same timer clock cycle that the counter counts from M\+AX to 0x0000.
+
+\begin{DoxyAuthor}{Author}
+Giuseppe Serano 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2016 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\index{ee\+\_\+atmega\+\_\+timer1ctc.\+h@{ee\+\_\+atmega\+\_\+timer1ctc.\+h}!Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1@{Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1}}
+\index{Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1@{Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1}!ee\+\_\+atmega\+\_\+timer1ctc.\+h@{ee\+\_\+atmega\+\_\+timer1ctc.\+h}}
+\subsubsection[{\texorpdfstring{Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1(uint32\+\_\+t microseconds\+Interval)}{OsEE_atmega_startTimer1(uint32_t microsecondsInterval)}}]{\setlength{\rightskip}{0pt plus 5cm}void Os\+E\+E\+\_\+atmega\+\_\+start\+Timer1 (
+\begin{DoxyParamCaption}
+\item[{uint32\+\_\+t}]{microseconds\+Interval}
+\end{DoxyParamCaption}
+)}\hypertarget{ee__atmega__timer1ctc_8h_a8e491d5e17071bbb9579c0e1a2b6c8f9}{}\label{ee__atmega__timer1ctc_8h_a8e491d5e17071bbb9579c0e1a2b6c8f9}
+
+\begin{DoxyParams}{Parameters}
+{\em microseconds\+Interval} & Timer 1 Period (us).\\
+\hline
+\end{DoxyParams}
+Initializes and Start Timer 1 in C\+TC Mode.
+
+\begin{DoxyNote}{Note}
+0 $<$ {\bfseries microseconds\+Interval} $<$ 4194304
+
+On 16 M\+Hz Arduino boards, the Timer has a resolution according to {\bfseries microseconds\+Interval}. For intervals x where\+:
+\begin{DoxyItemize}
+\item x $<$ 4096\+: 0.\+0625 us
+\item x $<$ 32768\+: 0.\+5 us
+\item x $<$ 262140\+: 3.\+75 us
+\item x $<$ 1048576\+: 16 us
+\item x $<$ 4194304\+: 64 us
+\end{DoxyItemize}
+
+Enables Output Compare A Match Interrupt for Timer 1\+: {\bfseries T\+I\+M\+E\+R1\+\_\+\+C\+O\+M\+P\+A\+\_\+vect}. 
+\end{DoxyNote}

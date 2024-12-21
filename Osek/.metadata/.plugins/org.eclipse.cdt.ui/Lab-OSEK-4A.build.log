@@ -1,0 +1,29 @@
+06:53:14 **** Build of configuration Default for project Lab-OSEK-4A ****
+make upload 
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.01s
+
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: reading input file "arduino.hex"
+avrdude: writing flash (8708 bytes):
+
+Writing | ################################################## | 100% 1.82s
+
+avrdude: 8708 bytes of flash written
+avrdude: verifying flash memory against arduino.hex:
+avrdude: load data flash data from input file arduino.hex:
+avrdude: input file arduino.hex contains 8708 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 1.50s
+
+avrdude: verifying ...
+avrdude: 8708 bytes of flash verified
+
+avrdude done.  Thank you.
+
+
+06:53:19 Build Finished (took 5s.161ms)
+

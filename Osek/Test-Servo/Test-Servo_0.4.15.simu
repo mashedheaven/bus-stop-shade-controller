@@ -1,0 +1,71 @@
+<circuit Speed_sps="1000000" reactStep="50" Speed_per="100" Simu_Step_nS="1000" type="simulide_0.4" noLinAcc="5" animate="0">
+
+Unique  Id: Ground-308: 
+Circuit Id: Ground-308
+<item itemtype="Ground" labelrot="0" rotation="0" objectName="Ground-308" circPos="0,0" circRot="205" y="-64" id="Ground-308" boardRot="-1000000" boardPos="-1e+06,-1e+06" labelx="-16" valLabRot="0" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="8" x="-748"/>
+
+Unique  Id: Tunnel-225: 
+Circuit Id: Tunnel-225
+<item itemtype="Tunnel" labelrot="0" rotation="0" objectName="Tunnel-225" circPos="0,0" circRot="-5.4861292803319049e+303" y="-256" id="Tunnel-225" boardRot="-1000000" boardPos="-1e+06,-1e+06" Rotated="false" labelx="-16" valLabRot="0" Name="CH1" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" Uid="" labely="-24" x="-548"/>
+
+Unique  Id: TextComponent-103: 
+Circuit Id: TextComponent-94
+<item itemtype="TextComponent" labelrot="0" rotation="0" objectName="TextComponent-103" circPos="0,0" circRot="0" Text="Servo Motor" y="-384" id="TextComponent-94" boardRot="-1000000" boardPos="-1e+06,-1e+06" Border="1" labelx="-16" Font="Helvetica [Cronyx]" Fixed_Width="false" valLabRot="0" valLabelx="0" Show_id="false" mainComp="false" vflip="1" Opacity="1" valLabely="0" hflip="1" Margin="5" labely="-24" Font_Size="10" x="-492"/>
+
+Unique  Id: Arduino Uno-3: 
+Circuit Id: Arduino Uno-3
+<item itemtype="Arduino" labelrot="0" rotation="0" objectName="Arduino Uno-3" circPos="0,0" circRot="0" y="-312" id="Arduino Uno-3" boardRot="-1000000" boardPos="-1e+06,-1e+06" labelx="100" Mhz="16" valLabRot="0" Name="arduinoUno" Init_gdb="false" valLabelx="0" Show_id="true" Program="out/arduino.hex" mainComp="false" vflip="1" Auto_Load="false" valLabely="0" hflip="1" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" Logic_Symbol="false" varList=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," labely="-21" x="-448"/>
+
+Unique  Id: Servo-2: 
+Circuit Id: Servo-2
+<item itemtype="Servo" labelrot="0" rotation="-90" objectName="Servo-2" circPos="0,0" circRot="3.2602237831715174e-316" y="-364" id="Servo-2" boardRot="-1000000" boardPos="-1e+06,-1e+06" labelx="-35" valLabRot="0" valLabelx="0" Show_id="true" mainComp="false" vflip="1" Speed="0.20000000000000001" valLabely="0" hflip="1" labely="-40" x="-544"/>
+
+Unique  Id: Ground-25: 
+Circuit Id: Ground-25
+<item itemtype="Ground" labelrot="0" rotation="0" objectName="Ground-25" circPos="0,0" circRot="nan" y="-292" id="Ground-25" boardRot="-1000000" boardPos="-1e+06,-1e+06" labelx="-16" valLabRot="0" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="8" x="-544"/>
+
+Unique  Id: Rail-26: 
+Circuit Id: Rail-26
+<item itemtype="Rail" labelrot="0" rotation="0" objectName="Rail-26" circPos="0,0" circRot="0" Voltage="5" y="-304" id="Rail-26" boardRot="-1000000" boardPos="-1e+06,-1e+06" labelx="-16" valLabRot="0" valLabelx="-16" Show_id="false" mainComp="false" vflip="1" valLabely="8" hflip="1" Unit=" V" Show_Volt="true" labely="-24" x="-576"/>
+
+Unique  Id: Oscope-260: 
+Circuit Id: Oscope-260
+<item AutoSC="4" itemtype="Oscope" labelrot="0" rotation="0" objectName="Oscope-260" circPos="0,0" circRot="0" Tunnels=",,," TimPos="0,0,0,0" y="-152" id="Oscope-260" boardRot="-1000000" boardPos="-1e+06,-1e+06" Tracks="1" VolDiv="1,1,1,1" labelx="-90" hTick="1000000" HideCh="false,false,false,false" valLabRot="0" VolPos="-2.5,0,0,0" Basic_X="135" Basic_Y="135" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" Filter="0" labely="-100" x="-644" Trigger="0"/>
+
+Unique  Id: Tunnel-261: 
+Circuit Id: Tunnel-261
+<item itemtype="Tunnel" labelrot="0" rotation="0" objectName="Tunnel-261" circPos="0,0" circRot="2.0913035149353671e-76" y="-200" id="Tunnel-261" boardRot="-1000000" boardPos="-1e+06,-1e+06" Rotated="false" labelx="-16" valLabRot="0" Name="CH1" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" Uid="" labely="-24" x="-744"/>
+
+Unique  Id: Node-371: 
+Circuit Id: Node-371
+<item itemtype="Node" labelrot="0" rotation="0" objectName="Node-371" circPos="0,0" circRot="nan" y="-256" id="Node-371" boardRot="-1000000" boardPos="-1e+06,-1e+06" labelx="-16" valLabRot="0" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" x="-528"/>
+
+Unique  Id: Connector-27: 
+Circuit Id: Connector-27
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-27" circPos="0,0" circRot="0" y="-304" id="Connector-27" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Rail-26-outnod" labelx="-16" pointList="-560,-304,-560,-316" valLabRot="0" enodeid="Circ_eNode-372" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Servo-2-in0" x="-560"/>
+
+Unique  Id: Connector-28: 
+Circuit Id: Connector-28
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-28" circPos="0,0" circRot="0" y="-308" id="Connector-28" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Ground-25-Gnd" labelx="-16" pointList="-544,-308,-544,-316" valLabRot="0" enodeid="Circ_eNode-373" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Servo-2-in1" x="-544"/>
+
+Unique  Id: Connector-262: 
+Circuit Id: Connector-262
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-262" circPos="0,0" circRot="0" y="-200" id="Connector-262" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Tunnel-261-pin" labelx="-16" pointList="-744,-200,-732,-200" valLabRot="0" enodeid="Circ_eNode-374" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Oscope-260-Pin0" x="-744"/>
+
+Unique  Id: Connector-309: 
+Circuit Id: Connector-309
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-309" circPos="0,0" circRot="0" y="-80" id="Connector-309" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Ground-308-Gnd" labelx="-16" pointList="-748,-80,-748,-88,-732,-88" valLabRot="0" enodeid="Circ_eNode-375" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Oscope-260-PinG" x="-748"/>
+
+Unique  Id: Connector-310: 
+Circuit Id: Connector-310
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-310" circPos="0,0" circRot="0" y="-256" id="Connector-310" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Arduino Uno-3-PD5" labelx="-16" pointList="-440,-256,-528,-256" valLabRot="0" enodeid="Circ_eNode-374" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Node-371-0" x="-440"/>
+
+Unique  Id: Connector-370: 
+Circuit Id: Connector-370
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-370" circPos="0,0" circRot="0" y="-256" id="Connector-370" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Tunnel-225-pin" labelx="-16" pointList="-548,-256,-528,-256" valLabRot="0" enodeid="Circ_eNode-374" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Node-371-1" x="-548"/>
+
+Unique  Id: Connector-372: 
+Circuit Id: Connector-372
+<item itemtype="Connector" labelrot="0" rotation="0" objectName="Connector-372" circPos="0,0" circRot="0" y="-256" id="Connector-372" boardRot="-1000000" boardPos="-1e+06,-1e+06" startpinid="Node-371-2" labelx="-16" pointList="-528,-256,-528,-316" valLabRot="0" enodeid="Circ_eNode-374" valLabelx="0" Show_id="false" mainComp="false" vflip="1" valLabely="0" hflip="1" labely="-24" endpinid="Servo-2-in2" x="-528"/>
+ 
+</circuit>
